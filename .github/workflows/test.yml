@@ -2,7 +2,7 @@ name: example
 on:
   # schedule:
   #   - cron: "*/1 * * * *" # Every 1 minutes
-  push
+  workflow_dispatch
 jobs:
   job:
     runs-on: ubuntu-latest
