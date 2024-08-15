@@ -13,6 +13,6 @@ jobs:
         with:
           product-id: 210230
           schedule-id: 100002
-          # Seat-id: 1_0
+          Seat-id: 1_0
           slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           message: "<@U12345678> tset"
